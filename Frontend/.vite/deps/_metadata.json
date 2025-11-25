@@ -1,0 +1,102 @@
+{
+  "hash": "0725d8dc",
+  "configHash": "d58b19bc",
+  "lockfileHash": "2ce88486",
+  "browserHash": "d568e741",
+  "optimized": {
+    "react-bootstrap": {
+      "src": "../../node_modules/react-bootstrap/esm/index.js",
+      "file": "react-bootstrap.js",
+      "fileHash": "18a046bc",
+      "needsInterop": false
+    },
+    "react-bootstrap/Container": {
+      "src": "../../node_modules/react-bootstrap/esm/Container.js",
+      "file": "react-bootstrap_Container.js",
+      "fileHash": "1f62c712",
+      "needsInterop": false
+    },
+    "react-bootstrap/Nav": {
+      "src": "../../node_modules/react-bootstrap/esm/Nav.js",
+      "file": "react-bootstrap_Nav.js",
+      "fileHash": "a94371b9",
+      "needsInterop": false
+    },
+    "react-bootstrap/Navbar": {
+      "src": "../../node_modules/react-bootstrap/esm/Navbar.js",
+      "file": "react-bootstrap_Navbar.js",
+      "fileHash": "6c480c38",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "92b04771",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "0c9f82bc",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "e76e881f",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "8694db58",
+      "needsInterop": true
+    },
+    "swiper/modules": {
+      "src": "../../node_modules/swiper/modules/index.mjs",
+      "file": "swiper_modules.js",
+      "fileHash": "4fffbe2c",
+      "needsInterop": false
+    },
+    "swiper/react": {
+      "src": "../../node_modules/swiper/swiper-react.mjs",
+      "file": "swiper_react.js",
+      "fileHash": "30cfc34a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "Container-C2yp70oJ": {
+      "file": "Container-C2yp70oJ.js",
+      "isDynamicEntry": false
+    },
+    "Nav-BhMnvbCd": {
+      "file": "Nav-BhMnvbCd.js",
+      "isDynamicEntry": false
+    },
+    "Navbar-D3oTA6HT": {
+      "file": "Navbar-D3oTA6HT.js",
+      "isDynamicEntry": false
+    },
+    "ThemeProvider-CCZMDbDk": {
+      "file": "ThemeProvider-CCZMDbDk.js",
+      "isDynamicEntry": false
+    },
+    "react-CSb6HjG4": {
+      "file": "react-CSb6HjG4.js",
+      "isDynamicEntry": false
+    },
+    "react-dom-CZLEvuSq": {
+      "file": "react-dom-CZLEvuSq.js",
+      "isDynamicEntry": false
+    },
+    "useIsomorphicEffect-DhfpOGow": {
+      "file": "useIsomorphicEffect-DhfpOGow.js",
+      "isDynamicEntry": false
+    },
+    "utils-DpOwGUNi": {
+      "file": "utils-DpOwGUNi.js",
+      "isDynamicEntry": false
+    }
+  }
+}

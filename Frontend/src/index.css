@@ -1,0 +1,348 @@
+/* nevbar */
+/* Navbar fixed on top */
+#Nevbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff; /* or gradient as you like */
+  z-index: 1000; /* content mele varanum */
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Add padding to body so content won't hide under navbar */
+body {
+  padding-top: 70px; /* navbar height + some space */
+}
+
+
+/* Cart icon badge */
+.cart-badge {
+  position: absolute;
+  top: -15px;
+  right: 50px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none; /* badge click pannala */
+}
+
+
+/* Optional: for offcanvas & other content to scroll */
+.offcanvas-body {
+  overflow-y: auto; /* scroll if content height > offcanvas height */
+  max-height: 80vh; /* adjust height if needed */
+}
+
+/* close nevbar */
+
+
+
+
+
+
+
+
+
+#menu{
+    display: flex;
+    flex-direction: column;
+}
+#menu  a{
+    color: white;
+}
+#menus{
+    background-color: darkblue;
+}
+#menuline{
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+#Nevbar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+
+#addtocardbtn{
+    background-color: darkblue;
+    color: white;
+}
+
+#homeproduct{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* register form */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+
+/* Full screen container */
+.register-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    135deg,
+    #e0f2fe 0%,
+    #ede9fe 40%,
+    #ffe4e6 100%
+  );
+  background-color: #e0f2fe; 
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* Glow behind the card */
+.register-container::before {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(147, 197, 253, 0.7) 0%,
+    rgba(221, 214, 254, 0.6) 40%,
+    rgba(255, 228, 230, 0.4) 80%
+  );
+  filter: blur(100px);
+  z-index: 1;
+}
+
+/* Form card */
+.register-box {
+  width: 400px;
+  background: #ffffffcc; /* glass effect */
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: stretch;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 10px;
+}
+
+/* Inputs (full width) */
+.register-box input {
+  height: 44px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #d7dbe6;
+  outline: none;
+  font-size: 15px;
+  background: rgba(240,245,255,0.7);
+  transition: 0.18s;
+}
+
+.register-box input:focus {
+  border-color: #4e73df;
+  box-shadow: 0 0 6px rgba(78,115,223,0.18);
+}
+
+/* Register button */
+.btn-register {
+  height: 46px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg,#4e73df,#6b8bff);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.12s ease, box-shadow 0.12s;
+}
+
+.btn-register:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(78,115,223,0.18);
+}
+
+/* close  */
+
+
+
+/*  LOGIN FORM  */ 
+
+
+
+/* Page background + radiant glow (matches register style) */
+.login-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+    135deg,
+    #e0f2fe 0%,
+    #ede9fe 40%,
+    #ffe4e6 100%
+  );
+
+  position: relative;
+  overflow: hidden;
+}
+
+/* Radiant halo behind the card */
+.login-container::before {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(147, 197, 253, 0.7) 0%,
+    rgba(221, 214, 254, 0.6) 40%,
+    rgba(255, 228, 230, 0.4) 80%
+  );
+  filter: blur(100px);
+  z-index: 1;
+}
+
+/* Card */
+.login-box {
+  width: 400px;
+  background: #ffffffcc; /* glass effect */
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.12);
+  position: relative;
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: stretch;
+}
+
+/* Title */
+.login-title {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 6px;
+  color: #2d2d2d;
+  font-weight: 700;
+}
+
+/* Inputs */
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  height: 44px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #d7dbe6;
+  outline: none;
+  font-size: 15px;
+  transition: 0.18s;
+  background: rgba(240,245,255,0.7);
+}
+
+.login-box input:focus {
+  border-color: #4e73df;
+  box-shadow: 0 0 6px rgba(78,115,223,0.18);
+}
+
+/* Row for remember + forgot */
+.login-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #555;
+}
+
+.remember input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+}
+
+/* forgot link */
+.forgot {
+  color: #4e73df;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Login button */
+.btn-login {
+  height: 46px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg,#4e73df,#6b8bff);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.12s ease, box-shadow 0.12s;
+}
+
+.btn-login:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(78,115,223,0.18);
+}
+
+/* small text */
+.small {
+  margin: 0;
+  font-size: 13px;
+  text-align: center;
+  color: #666;
+}
+
+.small a {
+  color: #4e73df;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
